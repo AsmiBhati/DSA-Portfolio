@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="/style.css"> <!-- Ensure this path is correct -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <h1 class="logo">My Portfolio</h1>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#dsa">DSA</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- Social Icons -->
+            <li><a href="https://www.linkedin.com/in/asmi-bhati-943758290/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/AsmiBhati" target="_blank"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+  
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h2>Hello, I'm a MERN Stack dev passionate about Product and Growth</h2>
+      <a href="#contact" class="cta-button">Get in Touch</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a full-stack developer with a strong focus on problem-solving through projects.
+        I enjoy building scalable web applications and exploring the latest technologies. I am currently the head of tech at Liftoff Club SRM and worked as the dev lead on a content generation website project. I also built my first side project, a merchandise store in 2023.
+      </p>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="section">
+    <div class="container">
+      <h2>Courses</h2>
+      <div class="course-grid">
+        <div class="course-card">
+            <a href="/public/course1.png" target="_blank">
+              <h3>DSA By Abdul Bari</h3>
+              <p>C/C++ Course in Data Structures by Abdul Bari</p>
+            </a>
+          </div>
+          <div class="course-card">
+            <a href="/public/course 2.png" target="_blank">
+              <h3>DSA By Dr P Saranya Suresh</h3>
+              <p>C/C++ Course in Data Structures by Abdul Bari</p>
+            </a>
+          </div>
+          <div class="course-card">
+            <a href="" target="_blank">
+              <h3>MERN Stack</h3>
+              <p>Currently Pursuing Aaryan Singh's MERN Stack Course</p>
+            </a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DSA Section -->
+  <section id="dsa" class="dsa-section">
+    <div class="container">
+      <h2>DSA Problems I've Solved</h2>
+      <div class="dsa-gallery">
+        <div class="dsa-item">
+          <a href="/public/dsa2.png" target="_blank">
+            <img src="/public/Screenshot 2024-11-11 at 12.31.01 AM.png" alt="Problem 1" />
+            <div class="overlay">
+              <p>E-Lab Questions</p>
+            </div>
+          </a>
+        </div>
+        
+        <div class="dsa-item">
+          <a href="/public/dsa1.png" target="_blank">
+            <img src="/public/hackerrank-social-preview.png" alt="Problem 2" />
+            <div class="overlay">
+              <p>Hackerrank Problems</p>
+            </div>
+          </a>
+        </div>
+        
+        <div class="dsa-item">
+          <a href="" target="_blank">
+            <img src="/public/images.png" alt="Problem 3" />
+            <div class="overlay">
+              <p>DSA Lab Questions</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Asmi's DSA Portfolio 2024 | Built with ❤</p>
+  </footer>
+
+  <script src="/script.js"></script> <!-- Ensure this path is correct -->
+</body>
+</html>
